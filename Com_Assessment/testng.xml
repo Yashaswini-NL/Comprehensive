@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="pageobject.SearchPage"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test2">
+      <classes>
+      <class name="pageobject.LifeStyle"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test3">
+      <classes>
+      
+      <class name="pageobject.GiftPage"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test4">
+      <classes>
+      
+      <class name="pageobject.CorporateGifts"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test5">
+      <classes>
+      
+      <class name="pageobject.Signin"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test6">
+      <classes>
+      
+      <class name="runner.WindowSwitching"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test7">
+      <classes>
+      
+      <class name="pageobject.SigninExcel"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test8">
+      <classes>
+      
+      <class name="pageobject.AllOfIt"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test9">
+      <classes>
+      
+      <class name="pageobject.TrackYourOrder"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test10">
+      <classes>
+      
+      <class name="pageobject.PersonalisedGifts"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test11">
+      <classes>
+      
+      <class name="pageobject.GiftCard"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test12">
+      <classes>
+      
+      <class name="pageobject.MouseAction"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
