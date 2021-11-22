@@ -36,6 +36,7 @@ import uistore.SigninExcelDetails;
 			SigninExcelDetails s = new SigninExcelDetails(driver);
 			HashMap<String,String> data = s.getTestData();
 			System.out.println(s.getTestData());
+			log.info("details entered");
 			Thread.sleep(5000);
 			s.getSignin().click();
 			Thread.sleep(5000);

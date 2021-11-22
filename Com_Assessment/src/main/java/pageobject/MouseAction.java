@@ -32,6 +32,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 		Thread.sleep(3000);
 		log.info("navigation to url");
 		m.getallofit().click();
+		log.info("navigated to url");
 		Thread.sleep(3000);
 		Actions action = new Actions(driver);
 

@@ -36,6 +36,8 @@ import uistore.GiftDetails;
 
 			action.moveToElement(g.getGifts()).perform();
 			g.getBaby().click();
+			log.info("navigated to page");
+			
 			
 		}
 		@AfterTest

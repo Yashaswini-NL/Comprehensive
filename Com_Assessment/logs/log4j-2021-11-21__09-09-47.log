@@ -1,0 +1,4 @@
+2021-11-21 21:09:59,755  INFO [main] ReadPropertyFile:32 - navigation to url
+2021-11-21 21:10:04,138  INFO [main] ReadPropertyFile:35 - clicked on selected item
+2021-11-21 21:10:07,212  INFO [main] ReadPropertyFile:38 - added to cart
+2021-11-21 21:10:19,665  INFO [main] ReadPropertyFile:55 - returned to home page

@@ -32,8 +32,10 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 		log.info("navigation to url");
 		a.getallofit().click();
 		a.getitem().click();
+		log.info("clicked on selected item");
 		Thread.sleep(3000);
 		a.getaddtocart().click();
+		log.info("added to cart");
 		Thread.sleep(3000);
 		a.getgiftwrap().click();
 		a.getgiftnote().click();
@@ -50,6 +52,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 	    Thread.sleep(3000);
 		
 		a.getContinueShopping().click();
+		log.info("returned to home page");
 		Thread.sleep(3000);
 		a.getallofit().click();
 		

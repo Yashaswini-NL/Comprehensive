@@ -30,10 +30,12 @@ public class CorporateGifts extends ReadPropertyFile {
 		log.info("navigation to url");
 		CorporateGiftDetails c = new CorporateGiftDetails(driver);
 		c.getCorporate().click();
+		log.info("navigated to corporate gifts page");
 		c.getFullName().sendKeys("Yashaswini");
 		c.getEmail().sendKeys("yashaswinin26@gmail.com");
 		c.getPhone().sendKeys("123456789");
 		c.getDesc().sendKeys("this is description");
+		log.info("details entered");
 		c.getSubmit().click();
 		log.info("Submitted successfully");
 

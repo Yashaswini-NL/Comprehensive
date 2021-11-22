@@ -1,21 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-18T16:05:24 IST" name="Default suite" finished-at="2021-11-18T16:05:36 IST" duration-ms="11342">
+  <suite started-at="2021-11-22T10:33:48 IST" name="Suite" finished-at="2021-11-22T10:40:22 IST" duration-ms="394162">
     <groups>
     </groups>
-    <test started-at="2021-11-18T16:05:24 IST" name="Default test" finished-at="2021-11-18T16:05:36 IST" duration-ms="11342">
-      <class name="pageobject.BountyPage">
-        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.BountyPage@15888343]" started-at="2021-11-18T16:05:24 IST" name="initialise" finished-at="2021-11-18T16:05:27 IST" duration-ms="2979" status="PASS">
+    <test started-at="2021-11-22T10:33:48 IST" name="Test1" finished-at="2021-11-22T10:34:13 IST" duration-ms="25193">
+      <class name="pageobject.SearchPage">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.SearchPage@33ecda92]" started-at="2021-11-22T10:33:48 IST" name="initialise" finished-at="2021-11-22T10:33:55 IST" duration-ms="6671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialise -->
-        <test-method signature="logintest()[pri:0, instance:pageobject.BountyPage@15888343]" started-at="2021-11-18T16:05:27 IST" name="logintest" finished-at="2021-11-18T16:05:36 IST" duration-ms="8331" status="PASS">
+        <test-method signature="SearchPageTest()[pri:0, instance:pageobject.SearchPage@33ecda92]" started-at="2021-11-22T10:33:55 IST" name="SearchPageTest" finished-at="2021-11-22T10:34:12 IST" duration-ms="16883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.SearchPage@33ecda92]" started-at="2021-11-22T10:34:12 IST" name="close" finished-at="2021-11-22T10:34:13 IST" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.SearchPage -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-11-22T10:34:14 IST" name="Test2" finished-at="2021-11-22T10:34:57 IST" duration-ms="43092">
+      <class name="pageobject.LifeStyle">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.LifeStyle@6cd24612]" started-at="2021-11-22T10:34:14 IST" name="initialise" finished-at="2021-11-22T10:34:18 IST" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="LifeStyleTest()[pri:0, instance:pageobject.LifeStyle@6cd24612]" started-at="2021-11-22T10:34:18 IST" name="LifeStyleTest" finished-at="2021-11-22T10:34:52 IST" duration-ms="34303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LifeStyleTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.LifeStyle@6cd24612]" started-at="2021-11-22T10:34:52 IST" name="close" finished-at="2021-11-22T10:34:57 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.LifeStyle -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-11-22T10:34:57 IST" name="Test3" finished-at="2021-11-22T10:35:16 IST" duration-ms="19010">
+      <class name="pageobject.GiftPage">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.GiftPage@14bdbc74]" started-at="2021-11-22T10:34:57 IST" name="initialise" finished-at="2021-11-22T10:35:00 IST" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="GiftHover()[pri:0, instance:pageobject.GiftPage@14bdbc74]" started-at="2021-11-22T10:35:00 IST" name="GiftHover" finished-at="2021-11-22T10:35:15 IST" duration-ms="15209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftHover -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.GiftPage@14bdbc74]" started-at="2021-11-22T10:35:15 IST" name="close" finished-at="2021-11-22T10:35:16 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.GiftPage -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-11-22T10:35:16 IST" name="Test4" finished-at="2021-11-22T10:35:34 IST" duration-ms="18411">
+      <class name="pageobject.CorporateGifts">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.CorporateGifts@24c1b2d2]" started-at="2021-11-22T10:35:16 IST" name="initialise" finished-at="2021-11-22T10:35:18 IST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="GiftPageTest()[pri:0, instance:pageobject.CorporateGifts@24c1b2d2]" started-at="2021-11-22T10:35:18 IST" name="GiftPageTest" finished-at="2021-11-22T10:35:34 IST" duration-ms="15623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftPageTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.CorporateGifts@24c1b2d2]" started-at="2021-11-22T10:35:34 IST" name="close" finished-at="2021-11-22T10:35:34 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.CorporateGifts -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-11-22T10:35:34 IST" name="Test5" finished-at="2021-11-22T10:36:29 IST" duration-ms="54549">
+      <class name="pageobject.Signin">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.Signin@1df8da7a]" started-at="2021-11-22T10:35:34 IST" name="initialise" finished-at="2021-11-22T10:35:36 IST" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="SigninTest()[pri:0, instance:pageobject.Signin@1df8da7a]" started-at="2021-11-22T10:35:36 IST" name="SigninTest" finished-at="2021-11-22T10:36:24 IST" duration-ms="48299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SigninTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.Signin@1df8da7a]" started-at="2021-11-22T10:36:24 IST" name="close" finished-at="2021-11-22T10:36:29 IST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.Signin -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-11-22T10:36:29 IST" name="Test6" finished-at="2021-11-22T10:37:14 IST" duration-ms="45487">
+      <class name="runner.WindowSwitching">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:runner.WindowSwitching@1c9b0314]" started-at="2021-11-22T10:36:29 IST" name="initialise" finished-at="2021-11-22T10:36:30 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="windowtest()[pri:0, instance:runner.WindowSwitching@1c9b0314]" started-at="2021-11-22T10:36:30 IST" name="windowtest" finished-at="2021-11-22T10:37:14 IST" duration-ms="43733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowtest -->
+      </class> <!-- runner.WindowSwitching -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-11-22T10:37:14 IST" name="Test7" finished-at="2021-11-22T10:37:45 IST" duration-ms="31135">
+      <class name="pageobject.SigninExcel">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.SigninExcel@f58853c]" started-at="2021-11-22T10:37:14 IST" name="initialise" finished-at="2021-11-22T10:37:18 IST" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="logintest()[pri:0, instance:pageobject.SigninExcel@f58853c]" started-at="2021-11-22T10:37:18 IST" name="logintest" finished-at="2021-11-22T10:37:45 IST" duration-ms="27333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-      </class> <!-- pageobject.BountyPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.SigninExcel@f58853c]" started-at="2021-11-22T10:37:45 IST" name="close" finished-at="2021-11-22T10:37:45 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.SigninExcel -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-11-22T10:37:45 IST" name="Test8" finished-at="2021-11-22T10:38:30 IST" duration-ms="44794">
+      <class name="pageobject.AllOfIt">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.AllOfIt@49b2a47d]" started-at="2021-11-22T10:37:45 IST" name="initialise" finished-at="2021-11-22T10:37:47 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="AllOfItTest()[pri:0, instance:pageobject.AllOfIt@49b2a47d]" started-at="2021-11-22T10:37:47 IST" name="AllOfItTest" finished-at="2021-11-22T10:38:26 IST" duration-ms="38657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllOfItTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.AllOfIt@49b2a47d]" started-at="2021-11-22T10:38:26 IST" name="close" finished-at="2021-11-22T10:38:30 IST" duration-ms="4147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.AllOfIt -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-11-22T10:38:30 IST" name="Test9" finished-at="2021-11-22T10:38:48 IST" duration-ms="17377">
+      <class name="pageobject.TrackYourOrder">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.TrackYourOrder@78452606]" started-at="2021-11-22T10:38:30 IST" name="initialise" finished-at="2021-11-22T10:38:32 IST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="TrackYourOrderTest()[pri:0, instance:pageobject.TrackYourOrder@78452606]" started-at="2021-11-22T10:38:32 IST" name="TrackYourOrderTest" finished-at="2021-11-22T10:38:47 IST" duration-ms="15240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrackYourOrderTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.TrackYourOrder@78452606]" started-at="2021-11-22T10:38:47 IST" name="close" finished-at="2021-11-22T10:38:48 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.TrackYourOrder -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-11-22T10:38:48 IST" name="Test10" finished-at="2021-11-22T10:39:12 IST" duration-ms="24035">
+      <class name="pageobject.PersonalisedGifts">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.PersonalisedGifts@13526e59]" started-at="2021-11-22T10:38:48 IST" name="initialise" finished-at="2021-11-22T10:38:50 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="PersonalizedGiftTest()[pri:0, instance:pageobject.PersonalisedGifts@13526e59]" started-at="2021-11-22T10:38:50 IST" name="PersonalizedGiftTest" finished-at="2021-11-22T10:39:11 IST" duration-ms="21862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalizedGiftTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.PersonalisedGifts@13526e59]" started-at="2021-11-22T10:39:11 IST" name="close" finished-at="2021-11-22T10:39:12 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.PersonalisedGifts -->
+    </test> <!-- Test10 -->
+    <test started-at="2021-11-22T10:39:12 IST" name="Test11" finished-at="2021-11-22T10:39:54 IST" duration-ms="42296">
+      <class name="pageobject.GiftCard">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.GiftCard@730d2164]" started-at="2021-11-22T10:39:12 IST" name="initialise" finished-at="2021-11-22T10:39:14 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="giftCard()[pri:0, instance:pageobject.GiftCard@730d2164]" started-at="2021-11-22T10:39:14 IST" name="giftCard" finished-at="2021-11-22T10:39:50 IST" duration-ms="35942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.GiftCard@730d2164]" started-at="2021-11-22T10:39:50 IST" name="close" finished-at="2021-11-22T10:39:54 IST" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.GiftCard -->
+    </test> <!-- Test11 -->
+    <test started-at="2021-11-22T10:39:54 IST" name="Test12" finished-at="2021-11-22T10:40:22 IST" duration-ms="28251">
+      <class name="pageobject.MouseAction">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pageobject.MouseAction@7068e664]" started-at="2021-11-22T10:39:54 IST" name="initialise" finished-at="2021-11-22T10:39:56 IST" duration-ms="2058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="MouseActionTest()[pri:0, instance:pageobject.MouseAction@7068e664]" started-at="2021-11-22T10:39:56 IST" name="MouseActionTest" finished-at="2021-11-22T10:40:22 IST" duration-ms="26033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseActionTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pageobject.MouseAction@7068e664]" started-at="2021-11-22T10:40:22 IST" name="close" finished-at="2021-11-22T10:40:22 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pageobject.MouseAction -->
+    </test> <!-- Test12 -->
+  </suite> <!-- Suite -->
 </testng-results>

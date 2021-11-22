@@ -39,6 +39,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 
 		action.moveToElement(l.getlifestyle()).perform();
 		l.getclocks().click();
+		log.info("navigated to clocks and watches");
 		Thread.sleep(2000);
 		Select s= new Select(l.getltoh());
 		//l.getltoh().sendKeys(Keys.DOWN);
@@ -52,6 +53,7 @@ public static Logger log=Logger.getLogger(ReadPropertyFile.class.getName());
 		l.getcheck().click();
 		Thread.sleep(5000);
 		System.out.println(l.gettext().getText());
+		log.info("Status displayed");
 		
 		
 		

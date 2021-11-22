@@ -28,6 +28,7 @@ public class PersonalisedGifts  extends ReadPropertyFile{
 		driver.get(p.getProperty("url"));
 		driver.manage().window().maximize();
 		Thread.sleep(3000);
+		
 		log.info("navigation to url");	
 	
 	  PersonalisedGiftDetails p=new PersonalisedGiftDetails(driver);

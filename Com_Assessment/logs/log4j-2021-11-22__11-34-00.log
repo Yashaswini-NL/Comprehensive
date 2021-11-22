@@ -1,0 +1,26 @@
+2021-11-22 11:34:21,916  INFO [main] ReadPropertyFile:32 - navigation to url
+2021-11-22 11:34:22,291  INFO [main] ReadPropertyFile:37 - navigated to harry porter gifs page
+2021-11-22 11:34:46,969  INFO [main] ReadPropertyFile:37 - navigation to url
+2021-11-22 11:34:50,033  INFO [main] ReadPropertyFile:42 - navigated to clocks and watches
+2021-11-22 11:35:08,028  INFO [main] ReadPropertyFile:56 - Status displayed
+2021-11-22 11:35:38,395  INFO [main] ReadPropertyFile:31 - navigation to url
+2021-11-22 11:35:41,804  INFO [main] ReadPropertyFile:39 - navigated to page
+2021-11-22 11:36:08,058  INFO [main] ReadPropertyFile:30 - navigation to url
+2021-11-22 11:36:11,236  INFO [main] ReadPropertyFile:33 - navigated to corporate gifts page
+2021-11-22 11:36:13,267  INFO [main] ReadPropertyFile:38 - details entered
+2021-11-22 11:36:13,615  INFO [main] ReadPropertyFile:40 - Submitted successfully
+2021-11-22 11:36:29,465  INFO [main] ReadPropertyFile:32 - navigation to url
+2021-11-22 11:36:59,197  INFO [main] ReadPropertyFile:30 - navigation to url
+2021-11-22 11:37:56,318  INFO [main] ReadPropertyFile:34 - navigation to url
+2021-11-22 11:37:59,104  INFO [main] ReadPropertyFile:39 - details entered
+2021-11-22 11:38:47,150  INFO [main] ReadPropertyFile:32 - navigation to url
+2021-11-22 11:38:56,146  INFO [main] ReadPropertyFile:35 - clicked on selected item
+2021-11-22 11:38:59,436  INFO [main] ReadPropertyFile:38 - added to cart
+2021-11-22 11:39:13,121  INFO [main] ReadPropertyFile:55 - returned to home page
+2021-11-22 11:39:39,658  INFO [main] ReadPropertyFile:31 - navigation to url
+2021-11-22 11:40:21,429  INFO [main] ReadPropertyFile:32 - navigation to url
+2021-11-22 11:40:32,366  INFO [main] ReadPropertyFile:41 - Assertion passed
+2021-11-22 11:40:58,574  INFO [main] ReadPropertyFile:29 - navigation to url
+2021-11-22 11:41:08,286  INFO [main] ReadPropertyFile:34 - navigated to gift card
+2021-11-22 11:41:53,070  INFO [main] ReadPropertyFile:33 - navigation to url
+2021-11-22 11:41:58,779  INFO [main] ReadPropertyFile:35 - navigated to url

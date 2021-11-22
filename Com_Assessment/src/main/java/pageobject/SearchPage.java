@@ -34,6 +34,7 @@ import uistore.SearchDetails;
 			
 			SearchDetails s=new SearchDetails(driver);
 			s.getSearch().sendKeys("harry potter gifts");
+			log.info("navigated to harry porter gifs page");
 			s.getHarry().click();
 			
 			Assert.assertEquals(s.getImage().getText(), "Harry Potter Plush Soft Toy");

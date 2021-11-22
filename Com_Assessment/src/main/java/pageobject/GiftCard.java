@@ -31,6 +31,7 @@ public class GiftCard extends ReadPropertyFile {
 			Thread.sleep(3000);
 			gc.getGifCard().click();
 			Thread.sleep(3000);
+			log.info("navigated to gift card");
 			gc.getCard().click();
 			Thread.sleep(2000);
 			gc.getCardCost().click();
